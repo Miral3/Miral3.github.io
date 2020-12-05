@@ -16,7 +16,7 @@
     "ui kit",
     "webapp"
   ],
-  "homepage": "http://Miral3.github.io/Miral3.github.io",
+  "homepage": "https://coreui.io",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-bootstrap-admin-template/issues",
     "email": "support@coreui.io"
@@ -73,9 +73,7 @@
     "watch-css": "nodemon -e scss -x \"npm run css\"",
     "watch-js": "nodemon -e js -x \"npm run js\"",
     "watch-pug": "node build/watch-pug.js",
-    "watch-views": "nodemon -e html -x \"npm-run-all --sequential copy-views build-vendors svg localhost-reload\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "watch-views": "nodemon -e html -x \"npm-run-all --sequential copy-views build-vendors svg localhost-reload\""
   },
   "dependencies": {
     "@coreui/chartjs": "^2.0.0",
@@ -87,7 +85,7 @@
     "perfect-scrollbar": "1.5.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.8",
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
@@ -96,7 +94,7 @@
     "autoprefixer": "^9.8.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
-    "browser-sync": "^2.26.13",
+    "browser-sync": "^2.26.7",
     "chalk": "^4.0.0",
     "clean-css-cli": "^4.3.0",
     "copyfiles": "^2.2.0",
@@ -106,7 +104,6 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-unicorn": "^20.0.0",
     "foreach-cli": "^1.8.1",
-    "gh-pages": "^3.1.0",
     "js-beautify": "^1.11.0",
     "jsdom": "^16.2.2",
     "minimist": "^1.2.5",
